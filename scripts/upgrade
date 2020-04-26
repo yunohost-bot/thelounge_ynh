@@ -122,11 +122,6 @@ ynh_use_nodejs
 pushd $final_path
 npm install --unsafe-perm
 
-# Install webpack
-npm upgrade webpack
-npm upgrade webpack-cli
-npm upgrade copy-webpack-plugin
-
 # Build The Lounge
 NODE_ENV=production npm run build
 
